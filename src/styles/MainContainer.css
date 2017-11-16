@@ -1,0 +1,47 @@
+.MainContainer-wrap {
+  display: flex;
+}
+
+.Data-card {
+  margin: 2rem;
+}
+
+.hide-overlay {
+  border: 1px solid black;
+  display: none;
+}
+
+.test {
+  display: none;
+}
+
+#live-cam-card {
+  
+}
+
+.hide-cam {
+  display: none;
+}
+
+.show-overlay {
+}
+
+/* Overlay styles */
+#canv-card {
+}
+
+.overlay-actions {
+  display: flex;
+}
+
+.spacer {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* Antd overwrites */
+.ant-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
